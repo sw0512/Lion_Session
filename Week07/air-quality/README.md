@@ -1,16 +1,34 @@
-# React + Vite
+# 전국 실시간 대기질 지도
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+에어코리아 공공데이터 API를 활용한 전국 시도별 실시간 대기오염 정보 시각화 프로젝트
 
-Currently, two official plugins are available:
+## 실행 결과
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![실행 결과](./preview.png)
 
-## React Compiler
+## 사용 기술
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React + Vite
+- Tailwind CSS
+- Axios
+- d3-geo
 
-## Expanding the ESLint configuration
+## 주요 기능
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 에어코리아 API로 17개 시도 대기질 데이터 실시간 조회
+- 시도별 통합대기환경지수(CAI) 등급에 따른 색상 표시
+- 마우스 hover 시 PM10 / PM2.5 수치 툴팁 표시
+
+## 실행 방법
+
+```bash
+npm install
+npm run dev
+```
+
+> `.env` 파일에 API 키를 직접 입력해야 합니다.
+
+```
+VITE_API_KEY=발급받은_서비스키
+VITE_API_URL=https://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty
+```
