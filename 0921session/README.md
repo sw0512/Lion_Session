@@ -1,16 +1,61 @@
-# React + Vite
+# 회원가입 페이지
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React와 Tailwind CSS로 만든 회원가입 페이지입니다. Figma에서 정의한 Color, Typography, Button, Input 디자인 시스템을 코드에 적용했습니다.
 
-Currently, two official plugins are available:
+## 화면
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Figma 디자인 시스템
 
-## React Compiler
+> 제출 전 본인이 만든 Figma Input 컴포넌트 화면 캡처를 아래에 추가합니다.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<!--
+![Figma Input 컴포넌트](./docs/figma-input.png)
+-->
 
-## Expanding the ESLint configuration
+### 회원가입 페이지
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> 제출 전 실행 화면 캡처를 아래에 추가합니다.
+
+<!--
+![회원가입 페이지](./docs/signup-page.png)
+-->
+
+## 구현 내용
+
+- 이름, 이메일, 비밀번호, 비밀번호 확인 입력창
+- 회원가입 버튼
+- 재사용 가능한 `Input` 컴포넌트
+  - `default`
+  - `focus`
+  - `filled`
+  - `disabled`
+- 재사용 가능한 `Button` 컴포넌트
+  - `default`, `hover`, `active`, `disabled`
+- Tailwind CSS 기반 스타일링
+- 비밀번호 일치 여부 확인 및 회원가입 완료 메시지
+
+## 디자인 토큰
+
+- Primary: `primary-100` ~ `primary-900`
+- Neutral: `neutral-100` ~ `neutral-900`
+- Typography: `title-lg`, `title-md`, `title-sm`, `body-lg`, `body-md`, `body-sm`, `caption`
+
+## 실행 방법
+
+```bash
+npm install
+npm run dev
+```
+
+브라우저에서 터미널에 표시된 주소(기본값: `http://localhost:5173`)를 열어 확인할 수 있습니다.
+
+## 프로젝트 구조
+
+```text
+src/
+├── components/
+│   ├── Button.jsx
+│   └── Input.jsx
+├── App.jsx
+└── index.css
+```
