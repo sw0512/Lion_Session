@@ -6,19 +6,15 @@ React와 Tailwind CSS로 만든 회원가입 페이지입니다. Figma에서 정
 
 ### Figma 디자인 시스템
 
-> 제출 전 본인이 만든 Figma Input 컴포넌트 화면 캡처를 아래에 추가합니다.
+<img width="577" height="516" alt="스크린샷 2026-09-22 오전 11 24 52" src="https://github.com/user-attachments/assets/56607bbb-e959-470c-80df-8bb322528384" />
 
-<!--
-![Figma Input 컴포넌트](./docs/figma-input.png)
--->
 
 ### 회원가입 페이지
 
 > 제출 전 실행 화면 캡처를 아래에 추가합니다.
 
-<!--
-![회원가입 페이지](./docs/signup-page.png)
--->
+<img width="1072" height="775" alt="스크린샷 2026-09-22 오전 11 25 03" src="https://github.com/user-attachments/assets/350ee088-92fc-4aa1-8148-a23bc89c5ef7" />
+
 
 ## 구현 내용
 
