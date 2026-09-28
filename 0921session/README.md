@@ -12,7 +12,6 @@ React와 Tailwind CSS로 만든 회원가입 페이지입니다. Figma에서 정
 
 ### 회원가입 페이지
 
-> 제출 전 실행 화면 캡처를 아래에 추가합니다.
 
 <img width="1800" height="2912" alt="screencapture-localhost-5173-2026-09-28-16_31_43" src="https://github.com/user-attachments/assets/c59814f6-7c4f-4d1e-8f10-40295dea98a9" />
 
