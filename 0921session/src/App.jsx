@@ -30,16 +30,16 @@ export default function App() {
   return (
     <main className="min-h-screen bg-slate-100 px-5 py-12 sm:px-8">
       <div className="mx-auto grid max-w-5xl overflow-hidden rounded-3xl bg-white shadow-xl lg:grid-cols-[0.9fr_1.1fr]">
-        <section className="bg-primary-600 p-8 text-white sm:p-12">
-          <p className="caption inline-flex rounded-full bg-white/15 px-3 py-1.5">INPUT COMPONENT</p>
+        <section className="bg-white p-8 text-neutral-900 sm:p-12">
+          <p className="caption inline-flex rounded-full bg-primary-100 px-3 py-1.5 text-primary-700">INPUT COMPONENT</p>
           <h1 className="title-md mt-8">재사용 가능한<br />Input 컴포넌트</h1>
-          <p className="body-md mt-4 text-primary-100">각 상태를 한 컴포넌트로 관리합니다.</p>
+          <p className="body-md mt-4 text-neutral-300">각 상태를 한 컴포넌트로 관리합니다.</p>
 
-          <div className="mt-10 space-y-5 border-t border-white/20 pt-8">
-            <Input label="Default" placeholder="내용을 입력하세요" state="default" variant="dark" />
-            <Input label="Focus" placeholder="포커스 상태" state="focus" variant="dark" />
-            <Input label="Filled" value="hong@example.com" readOnly state="filled" variant="dark" />
-            <Input label="Disabled" placeholder="입력할 수 없습니다" disabled state="disabled" variant="dark" />
+          <div className="mt-10 space-y-5 border-t border-neutral-100 pt-8">
+            <Input label="Default" placeholder="내용을 입력하세요" state="default" />
+            <Input label="Focus" placeholder="포커스 상태" state="focus" />
+            <Input label="Filled" value="hong@example.com" readOnly state="filled" />
+            <Input label="Disabled" placeholder="입력할 수 없습니다" disabled state="disabled" />
           </div>
         </section>
 

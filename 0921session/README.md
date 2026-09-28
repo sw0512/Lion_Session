@@ -6,8 +6,9 @@ React와 Tailwind CSS로 만든 회원가입 페이지입니다. Figma에서 정
 
 ### Figma 디자인 시스템
 
-<img width="798" height="689" alt="스크린샷 2026-09-28 오후 4 33 37" src="https://github.com/user-attachments/assets/59677042-2b79-4a2d-9620-275026f30431" />
+`Input` 컴포넌트는 Figma Variable과 Auto Layout을 사용해 `Default`, `Focus`, `Filled`, `Disabled` 상태로 만들었습니다.
 
+<img width="798" height="689" alt="스크린샷 2026-09-28 오후 4 33 37" src="https://github.com/user-attachments/assets/59677042-2b79-4a2d-9620-275026f30431" />
 
 ### 회원가입 페이지
 
