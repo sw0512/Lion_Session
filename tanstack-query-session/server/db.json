@@ -1,0 +1,35 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Exercise",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "title": "Review Class Notes",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "title": "Prepare for Session",
+      "completed": true
+    },
+    {
+      "title": "집가기",
+      "completed": false,
+      "id": "TUhj4C5ySa4"
+    },
+    {
+      "title": "밥 먹기",
+      "completed": false,
+      "id": "1BIOWdmWvew"
+    },
+    {
+      "title": "자기",
+      "completed": false,
+      "id": "qo_ZTQghxx4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
